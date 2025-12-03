@@ -1,0 +1,67 @@
+{
+  "works": [
+    {
+      "id": "work-1",
+      "image": "/images/portfolio/work-1.jpg",
+      "year": 2023,
+      "dimensions": "150 × 200 см",
+      "technique": {
+        "kz": "Гобелен, жүн",
+        "ru": "Гобелен, шерсть",
+        "en": "Tapestry, wool"
+      },
+      "title": {
+        "kz": "Таңғы нұр",
+        "ru": "Утренний свет",
+        "en": "Morning Light"
+      },
+      "description": {
+        "kz": "Таң сәулесінің жылылығы мен тыныштығын бейнелейтін композиция.",
+        "ru": "Композиция, передающая тепло и тишину утреннего света.",
+        "en": "A composition conveying the warmth and stillness of morning light."
+      }
+    },
+    {
+      "id": "work-2",
+      "image": "/images/portfolio/work-2.jpg",
+      "year": 2022,
+      "dimensions": "120 × 180 см",
+      "technique": {
+        "kz": "Киіз, аралас техника",
+        "ru": "Войлок, смешанная техника",
+        "en": "Felt, mixed media"
+      },
+      "title": {
+        "kz": "Дала әуені",
+        "ru": "Мелодия степи",
+        "en": "Melody of the Steppe"
+      },
+      "description": {
+        "kz": "Қазақ даласының шексіз кеңістігі мен еркіндігі.",
+        "ru": "Бескрайние просторы и свобода казахской степи.",
+        "en": "The endless expanse and freedom of the Kazakh steppe."
+      }
+    },
+    {
+      "id": "work-3",
+      "image": "/images/portfolio/work-3.jpg",
+      "year": 2024,
+      "dimensions": "100 × 150 см",
+      "technique": {
+        "kz": "Гобелен, жібек",
+        "ru": "Гобелен, шёлк",
+        "en": "Tapestry, silk"
+      },
+      "title": {
+        "kz": "Ана",
+        "ru": "Мать",
+        "en": "Mother"
+      },
+      "description": {
+        "kz": "Аналық сезімнің мәңгілік тақырыбы.",
+        "ru": "Вечная тема материнства и любви.",
+        "en": "The eternal theme of motherhood and love."
+      }
+    }
+  ]
+}
