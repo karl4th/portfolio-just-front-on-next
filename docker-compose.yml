@@ -8,3 +8,23 @@ services:
     environment:
       - NODE_ENV=production
     restart: unless-stopped
+    networks:
+      - site-net
+
+  nginx:
+    image: nginx:stable
+    container_name: nginx_proxy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+      - ./uploads:/app/public/uploads
+    networks:
+      - site-net
+    restart: unless-stopped
+
+networks:
+  site-net:
+    driver: bridge
